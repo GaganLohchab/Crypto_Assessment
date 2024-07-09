@@ -1,0 +1,136 @@
+.Academy {
+    background-image: url('../../public/academy-background.png'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Academy_logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 40%; /* Align to the vertical center */
+    left: 50%; /* Align to the horizontal center */
+    transform: translate(-50%, -50%); /* Center the logo */
+    max-width: 100%; /* Ensure the logo doesn't exceed its container */
+    max-height: 100%; /* Ensure the logo doesn't exceed its container */
+    mix-blend-mode: difference;
+}
+
+.paragraph span {
+    color: white;
+}
+
+.Abody {
+    margin-top: 530px;
+}
+
+#StartedButton {
+    position: relative;
+    display: flex;
+    margin: 50px 180px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(100, 53, 233);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn img {
+    margin-left: 2px; /* Space between text and icon */
+    height: 21px;
+    width: 31px;
+    filter: invert(100%);
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+._reward_count_1uq5j_169 {
+    height: 32px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 1000px;
+    border: .5px solid rgba(255, 255, 255, .05);
+    background: rgba(255, 255, 255, .07);
+    color: #fffc;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: max-content;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem; 
+    margin-left: -275px;
+    margin-top: 80px;
+    background: transparent;
+    align-items: center;
+    gap: 24px;
+    cursor: pointer;
+    border-radius: 24px;
+    border: 1px solid var(--White-05, rgba(255, 255, 255, .29));
+    border-bottom: none;
+    transition: .3s ease;
+}
+
+.image {
+    flex: 0 0 160px;
+    padding: 8px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    background: var(--White-05, rgba(255, 255, 255, .05));
+    position: relative;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    object-fit: cover; /* Make sure the image covers the area without distortion */
+}
+
+.card-actions {
+    position: relative;
+    justify-content: left;
+}
+
+.collapse {
+    justify-content: end;
+}
+
+.task-list {
+    background: transparent; /* Light background for the task list */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 530px;
+    margin-left: -275px;
+    margin-top: 1rem;
+    border-radius: 24px;
+    border: 1px solid var(--White-05, rgba(255, 255, 255, .09));
+   
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    padding: 0.5rem 0;
+    margin-bottom: 3px;
+    border-radius: 24px;
+    border: 1px solid var(--White-05, rgba(255, 255, 255, .29));
+   
+}
+
+.task-item:last-child {
+    border-bottom: none;
+}
